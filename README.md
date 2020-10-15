@@ -1,25 +1,23 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  <a href="https://github.com/clairyitinggu/TechJob-Hunter">
-    <img src="images/logo.png" alt="Logo" width="200" height="">
-  </a>
 
   <h3 align="center">Starlink Tracker</h3>
 
   <p align="center">
     a React Based Starlink Trajectory Visualization
     <br />
-    <a href="https://github.com/clairyitinggu/TechJob-Hunter"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/clairyitinggu/starlink"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/clairyitinggu/TechJob-Hunter/repo_name">View Demo</a>
+    <a href="https://github.com/clairyitinggu/starlink">View Demo</a>
     ·
-    <a href="https://github.com/clairyitinggu/TechJob-Hunter/issues">Report Bug</a>
+    <a href="https://github.com/clairyitinggu/starlink/issues">Report Bug</a>
     ·
-    <a href="https://github.com/clairyitinggu/TechJob-Hunter/issues">Request Feature</a>
+    <a href="https://github.com/clairyitinggu/starlink/issues">Request Feature</a>
   </p>
 </p>
+
+[![Demo][product-screenshot]]()
 
 <!-- TABLE OF CONTENTS -->
 
@@ -41,12 +39,9 @@
 
 ## About The Project
 
-[![TechJob Hunter][product-screenshot]](https://i.ibb.co/NTHFdv1/2020-10-13-3-11-09.png)
-
 ### Built With
 
 - [Front End: React, D3]()
--
 - [Other: AWS EC2]()
 
 <!-- GETTING STARTED -->
@@ -65,9 +60,11 @@
 git clone https://github.com/clairyitinggu/TechJob-Hunter.git
 ```
 
-2. Install packages
+2. Install NPM packages
 
-Right click project under Project Explorer, and under Run As, click Maven install to allow Maven rebuild the project.
+```sh
+npm install
+```
 
 <!-- USAGE EXAMPLES -->
 
@@ -80,12 +77,6 @@ Right click project under Project Explorer, and under Run As, click Maven instal
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
-
-## Credits
-
-- [Google Fonts]()
-- [LineAwesome Icons](https://icons8.com/line-awesome/cheatsheet)
-- [Slick Carousel](http://kenwheeler.github.io/slick/)
 
 <!-- LICENSE -->
 
@@ -118,4 +109,4 @@ Project Link: [https://github.com/clairyitinggu](https://github.com/github_usern
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/Starlink.gif
